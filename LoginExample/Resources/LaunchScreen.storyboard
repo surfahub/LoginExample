@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Iz3-2i-zUG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="7Aq-8Z-YhE">
+            <objects>
+                <viewController id="Iz3-2i-zUG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BNa-pq-5y4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="imv-Du-C6h">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IE5-1R-j1l">
+                                        <rect key="frame" x="0.0" y="404" width="414" height="88.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Splash screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zu-VX-XCx" userLabel="Splash Screen">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="48"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just loading some staff" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWG-Uf-MEl">
+                                                <rect key="frame" x="0.0" y="68" width="414" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" name="c_background_1"/>
+                                <constraints>
+                                    <constraint firstItem="IE5-1R-j1l" firstAttribute="centerY" secondItem="imv-Du-C6h" secondAttribute="centerY" id="FBx-VZ-hL4"/>
+                                    <constraint firstItem="IE5-1R-j1l" firstAttribute="leading" secondItem="imv-Du-C6h" secondAttribute="leading" id="pcd-cX-6RR"/>
+                                    <constraint firstAttribute="trailing" secondItem="IE5-1R-j1l" secondAttribute="trailing" id="vNI-x2-APG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fZW-oe-inq"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="imv-Du-C6h" firstAttribute="leading" secondItem="BNa-pq-5y4" secondAttribute="leading" id="9dL-9L-PpL"/>
+                            <constraint firstAttribute="bottom" secondItem="imv-Du-C6h" secondAttribute="bottom" id="a1d-Ta-7xO"/>
+                            <constraint firstAttribute="trailing" secondItem="imv-Du-C6h" secondAttribute="trailing" id="nwD-1u-Dhu"/>
+                            <constraint firstItem="imv-Du-C6h" firstAttribute="top" secondItem="BNa-pq-5y4" secondAttribute="top" id="vVn-28-t9H"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                <color key="value" name="c_background_2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                <color key="value" name="c_background_1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="horizontalMode" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q35-nO-inZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-149.27536231884059" y="-1335.2678571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="c_background_1">
+            <color red="0.37254901960784315" green="0.30980392156862746" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="c_background_2">
+            <color red="0.27058823529411763" green="0.37254901960784315" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,190 @@
+PODS:
+  - Differentiator (4.0.1)
+  - FieryCrucible (3.0.1)
+  - Firebase/Auth (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.9.2)
+  - Firebase/CoreOnly (6.34.0):
+    - FirebaseCore (= 6.10.4)
+  - Firebase/Crashlytics (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 4.6.2)
+  - FirebaseAuth (6.9.2):
+    - FirebaseCore (~> 6.10)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (6.10.4):
+    - FirebaseCoreDiagnostics (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.7.0):
+    - GoogleDataTransport (~> 7.4)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30906.0)
+  - FirebaseCrashlytics (4.6.2):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstallations (~> 1.6)
+    - GoogleDataTransport (~> 7.2)
+    - nanopb (~> 1.30906.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstallations (1.7.0):
+    - FirebaseCore (~> 6.10)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - PromisesObjC (~> 1.2)
+  - GoogleDataTransport (7.5.1):
+    - nanopb (~> 1.30906.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.7.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (6.7.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.2)"
+  - GoogleUtilities/Reachability (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.7.2):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.5.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - KeychainAccess (4.2.1)
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
+  - "NSObject+Rx (5.1.0)":
+    - RxSwift (~> 5.1)
+  - PromisesObjC (1.2.12)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxFirebase/Auth (0.3.8):
+    - RxFirebaseAuthentication (~> 0.3)
+  - RxFirebaseAuthentication (0.3.8):
+    - FirebaseAuth (~> 6)
+    - FirebaseCore (~> 6)
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxFlow (2.11.0):
+    - RxCocoa (>= 5.1.1)
+    - RxSwift (>= 5.1.1)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxLocalizer (1.5.0):
+    - RxCocoa (~> 5.1.1)
+    - RxSwift (~> 5.1.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - SPStorkController (1.7.9)
+
+DEPENDENCIES:
+  - FieryCrucible
+  - Firebase/Auth
+  - Firebase/Crashlytics
+  - IQKeyboardManagerSwift
+  - KeychainAccess
+  - "NSObject+Rx"
+  - Reusable
+  - RxCocoa
+  - RxDataSources
+  - RxFirebase/Auth
+  - RxFlow
+  - RxGesture
+  - RxLocalizer
+  - RxRelay
+  - RxSwift
+  - RxSwiftExt
+  - SPStorkController
+
+SPEC REPOS:
+  trunk:
+    - Differentiator
+    - FieryCrucible
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - nanopb
+    - "NSObject+Rx"
+    - PromisesObjC
+    - Reusable
+    - RxCocoa
+    - RxDataSources
+    - RxFirebase
+    - RxFirebaseAuthentication
+    - RxFlow
+    - RxGesture
+    - RxLocalizer
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SPStorkController
+
+SPEC CHECKSUMS:
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  FieryCrucible: 066a11813aa50ca2240c79239d85bfab45d23b35
+  Firebase: c23a36d9e4cdf7877dfcba8dd0c58add66358999
+  FirebaseAuth: c92d49ada7948d1a23466e3db17bc4c2039dddc3
+  FirebaseCore: d3a978a3cfa3240bf7e4ba7d137fdf5b22b628ec
+  FirebaseCoreDiagnostics: 770ac5958e1372ce67959ae4b4f31d8e127c3ac1
+  FirebaseCrashlytics: 1a747c9cc084a24dc6d9511c991db1cd078154eb
+  FirebaseInstallations: 466c7b4d1f58fe16707693091da253726a731ed2
+  GoogleDataTransport: f56af7caa4ed338dc8e138a5d7c5973e66440833
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxFirebase: 45e6448c69c7212e21f8ba89144443f916437861
+  RxFirebaseAuthentication: 5d0573fd641947ed857346624d1c849bbd86bdff
+  RxFlow: c5242626a73a03d0a0163f0ab795538c467b791f
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxLocalizer: 7db2f964848a885d996d36f47f0e88a477cd627a
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  SPStorkController: 36bd84206267232747b19d48852659bd71ede28f
+
+PODFILE CHECKSUM: d1c8c00c6ac63731fe17045dcf7df8b5c2c6bdfa
+
+COCOAPODS: 1.10.1

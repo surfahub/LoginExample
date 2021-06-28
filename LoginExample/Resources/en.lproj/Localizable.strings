@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Dejourny
+
+  Created by Vladislav Tugolukov on 03.11.2020.
+  Copyright © 2020 Giacone & Associates. All rights reserved.
+*/
+
+"S10_Message" = "Please try login to system";
+"S10_Login_Title" = "LOGIN";
+"S10_Registation_Title" = "REGISTRATION";
+"S10_Email_TextField_Placeholder" = "E-mail";
+"S10_Password_TextField_Placeholder" = "Password";
+"S10_Email_Verification_Error" = "Email not entered";
+"S10_Password_Verification_Error" = "Password no entered";
+"S10_Registration_Button" = "Register";
+"S10_Login_Button" = "Sign in";
+"S10_Finish_Button" = "Finish";
